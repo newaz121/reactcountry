@@ -1,0 +1,28 @@
+.countries{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-gap: 20px;
+
+
+   
+   
+}
+.countrytre{
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+.country{
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: aquamarine;
+    padding: 20px;
+}
+.country img{
+width: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 20px;
+margin-left: 20px;
+
+}
